@@ -12,13 +12,34 @@ body {
     text-align: center;
 }
 
-.header_text {
-    font-size: 3em;
+.normal_text {
+    font-size: 2em;
     color: #49b472;
 }
 
+.yes-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #3f8142;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+.no-button {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 .gif_container img {
-    width: 100%; 
+    width: 90%; 
     max-width: 500px; 
     height: auto; 
 }
